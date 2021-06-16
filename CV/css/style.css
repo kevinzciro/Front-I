@@ -10,6 +10,11 @@ header{
     
 }
 
+header img{
+    width: auto;
+    height: 150px;
+}
+
 h1{
     background-color: #C4C4C4;
     text-align: center;
@@ -74,4 +79,18 @@ footer img{
     vertical-align: middle;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: #005677;
+    text-align: center;
+    margin-left: 160px;
+    margin-right: 200px;
+    font-size: 25px;
+}
+
+a:hover{
+    text-decoration: underline;
 }
