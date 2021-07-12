@@ -29,6 +29,7 @@ h1{
     align-items: center;
 }
 
+
 nav{
     background-color: black;
     color: white;
@@ -56,56 +57,74 @@ nav ul li a:hover{
     text-decoration: underline;
 }
 
-form{
+
+#formulario{
     display: flex;
-    align-items: center;
+    align-content: center;
     justify-content: center;
-    padding: 5% 0% 8% 0%;
-    flex-direction: column;
 }
 
-form input{
-    padding: 0.5% 15% 0.5% 0.5%;
+form{
+    padding: 1% 4% 1% 4%;
+    border-radius: 2rem;
+    color: white;
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 0% 5% 0%;
+    background-color: #00669F;
+    justify-content: center;
 }
 
-form select{
-    padding: 0.5% 21.3% 0.5% 0.5%;
+form h2, p{
+    width: 100%;
+    text-align: center;
+}
+
+form div{
+    width: 50%;
+    padding: 2% 0% 2% 0%;
 }
 
 form button{
     background-color: #1CD1B0;
     border: none;
     padding: 0.5rem 10rem 0.5rem 10rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     font-weight: bold;
+    font-size: 1rem;
 }
 
-#resetear{
-    padding: 0.5rem 4rem 0.5rem 4rem;
-    margin: 0 0.5rem 0 0;
-    background-color: #888888;
-    color: white;
-    font-weight: bold;
+form input{
+    padding: 5% 15% 5% 0.5%;
+    border-radius: 0.5rem;
+    border: none;
 }
 
-#registro{
-    padding: 0.5rem 4rem 0.5rem 4rem;
-    font-weight: bold;
-}
-
-form h2{
-    text-align: left;
-    font-size: 3rem ;
-}
-
-form textarea{
-    width: 27.3%;
-    height: 10rem;
+#especie{
+    padding: 5% 25% 5% 0.5%;
+    border-radius: 0.5rem;
+    border: none;
     background-color: white;
 }
 
-form p a{
-    text-decoration: none;
+#placeholder  {
+    color: #999;
+}
+
+#fecha{
+    padding: 5% 20% 5% 0.5%;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 0 1rem 0 0;
+}
+
+#comentario{
+    border-radius: 0.5rem;
+    padding: 5% 5% 5% 5%;
+    border: none;
+    width: 72%;
+    height: 80%;
 }
 
 footer{
